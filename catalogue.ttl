@@ -1,0 +1,19 @@
+PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX reg: <http://purl.org/linked-data/registry#>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://data.idnau.org/pid/kp-catalogue>
+    a schema:DataCatalog ;
+    schema:hasPart <https://data.idnau.org/pid/041b30a8-f187-4846-9890-de2a200dbfc8> ;
+    reg:status astatus:experimental ;
+    schema:codeRepository "https://github.com/idn-au/kp-catalogue" ;
+    schema:creator <https://linked.data.gov.au/org/isu> ;
+    schema:dateCreated "2025-01-24"^^xsd:date ;
+    schema:dateModified "2025-01-24"^^xsd:date ;
+    schema:description "The Indigenous studies Unit's catalogue of Keeping Place resources" ;
+    schema:name "IDN Keeping Place Catalogue" ;
+    schema:publisher <https://linked.data.gov.au/org/isu> ;
+.
