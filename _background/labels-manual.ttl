@@ -1,0 +1,6 @@
+PREFIX schema: <https://schema.org/>
+
+<http://purl.org/spar/fabio/DataFile>
+    schema:description "A realisation of a fabio:Dataset (a frbr:Work) containing a defined collection of data with specific content and possibly with a specific version number, that can be embodied as a fabio:Digital Manifestation (a frbr:Manifestation with a specific format) and be represented by a specific fabio:ComputerFile (a frbr:Item) on someone's hard drive."@en ;
+    schema:name "data file"@en ;
+.

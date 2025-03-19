@@ -1,0 +1,126 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX schema: <https://schema.org/>
+
+dcterms:hasPart
+    schema:description
+        "A related resource that is included either physically or logically in the described resource."@en ,
+        "This property is intended to be used with non-literal values. This property is an inverse property of Is Part Of."@en ;
+    schema:name "Has Part"@en ;
+.
+
+<http://purl.org/linked-data/registry#status>
+    schema:description "The status of this register entry"@en ;
+    schema:name "status"@en ;
+.
+
+dcat:Catalog
+    schema:description "A curated collection of metadata about resources (e.g., datasets and data services in the context of a data catalog)."@en ;
+    schema:name "Catalog"@en ;
+.
+
+dcat:Dataset
+    schema:description "A collection of data, published or curated by a single source, and available for access or download in one or more represenations."@en ;
+    schema:name "Dataset"@en ;
+.
+
+dcat:downloadURL
+    schema:description "The URL of the downloadable file in a given format. E.g. CSV file or RDF file. The format is indicated by the distribution's dct:format and/or dcat:mediaType."@en ;
+    schema:name "download URL"@en ;
+.
+
+<https://linked.data.gov.au/def/reg-statuses/experimental>
+    schema:description "An entry that has been accepted into the register temporarily and may be subject to change or withdrawal."@en ;
+    schema:name "experimental"@en ;
+.
+
+schema:CreativeWork
+    schema:description "The most generic kind of creative work, including books, movies, photographs, software programs, etc." ;
+    schema:name "CreativeWork" ;
+.
+
+schema:Organization
+    schema:description "An organization such as a school, NGO, corporation, club, etc." ;
+    schema:name "Organization" ;
+.
+
+schema:additionalType
+    schema:description """An additional type for the item, typically used for adding more specific types from external vocabularies in microdata syntax. This is a relationship between something and a class that the thing is in. Typically the value is a URI-identified RDF class, and in this case corresponds to the
+    use of rdf:type in RDF. Text values can be used sparingly, for cases where useful information can be added without their being an appropriate schema to reference. In the case of text values, the class label should follow the schema.org <a href="https://schema.org/docs/styleguide.html">style guide</a>.""" ;
+    schema:name "additionalType" ;
+.
+
+schema:codeRepository
+    schema:description "Link to the repository where the un-compiled, human readable code and related code is located (SVN, GitHub, CodePlex)." ;
+    schema:name "codeRepository" ;
+.
+
+schema:creator
+    schema:description "The creator/author of this CreativeWork. This is the same as the Author property for CreativeWork." ;
+    schema:name "creator" ;
+.
+
+schema:dateCreated
+    schema:description "The date on which the CreativeWork was created or the item was added to a DataFeed." ;
+    schema:name "dateCreated" ;
+.
+
+schema:dateModified
+    schema:description "The date on which the CreativeWork was most recently modified or when the item's entry was modified within a DataFeed." ;
+    schema:name "dateModified" ;
+.
+
+schema:distribution
+    schema:description "A downloadable form of this dataset, at a specific location, in a specific format. This property can be repeated if different variations are available. There is no expectation that different downloadable distributions must contain exactly equivalent information (see also [DCAT](https://www.w3.org/TR/vocab-dcat-3/#Class:Distribution) on this point). Different distributions might include or exclude different subsets of the entire dataset, for example." ;
+    schema:name "distribution" ;
+.
+
+schema:identifier
+    schema:description """The identifier property represents any kind of identifier for any kind of [[Thing]], such as ISBNs, GTIN codes, UUIDs etc. Schema.org provides dedicated properties for representing many of these, either as textual strings or as URL (URI) links. See [background notes](/docs/datamodel.html#identifierBg) for more details.
+        """ ;
+    schema:name "identifier" ;
+.
+
+schema:keywords
+    schema:description "Keywords or tags used to describe some item. Multiple textual entries in a keywords list are typically delimited by commas, or by repeating the property." ;
+    schema:name "keywords" ;
+.
+
+schema:license
+    schema:description "A license document that applies to this content, typically indicated by URL." ;
+    schema:name "license" ;
+.
+
+schema:parentOrganization
+    schema:description "The larger organization that this organization is a [[subOrganization]] of, if any." ;
+    schema:name "parentOrganization" ;
+.
+
+schema:publisher
+    schema:description "The publisher of the creative work." ;
+    schema:name "publisher" ;
+.
+
+schema:url
+    schema:description "URL of the item." ;
+    schema:name "url" ;
+.
+
+<https://linked.data.gov.au/org/isu>
+    a schema:Organization ;
+    schema:name "Indigenous Studies Unit" ;
+    schema:url "https://mspgh.unimelb.edu.au/centres-institutes/onemda/research-group/indigenous-studies-unit" ;
+    schema:parentOrganization <https://linked.data.gov.au/org/uom> ;
+.
+
+<https://olis.dev/isAliasFor>
+    schema:name "is alias for" ;
+.
+
+<https://olis.dev/VirtualGraph>
+    schema:name "Virtual Graph" ;
+.
+
+<http://purl.org/NET/rdflicense/cc-by4.0>
+    schema:name "Creative Commons - Attribution 4.0 International - CC BY 4.0"@en ;
+.
