@@ -1,0 +1,48 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://data.idnau.org/pid/resource/ae27713b-45a0-4e93-90fa-507e0dee12ae>
+    a dcat:Resource ;
+    dcterms:accessRights <https://linked.data.gov.au/def/data-access-rights/restricted> ;
+    dcterms:created "2022-01-01"^^xsd:date ;
+    dcterms:description """The Literature Production Centre (LPC) has been part of the Yirrkala school since the 70's, and supports the Yolŋu Indigenous Languages and Culture program including, Yolŋu Matha, Galtha Rom and Garma Maths, as well as supporting Yolŋu teachers to deliver the school’s bilingual program.
+
+This archival dataset is stored on hard disk drives collected by University of Melbourne and includes digitisation of all non-standard documents, objects, materials in Archive.""" ;
+    dcterms:modified "2025-01-01"^^xsd:date ;
+    dcterms:temporal
+        [
+            prov:startedAtTime "1968"^^xsd:gYear ;
+        ] ;
+    dcterms:title "Yirrkala LPC Dataset" ;
+    dcterms:type
+        <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-people> ,
+        <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-things> ,
+        <https://data.idnau.org/pid/vocab/indigeneity/by-indigenous-people> ;
+    dcat:theme
+        <https://vocabularyserver.com/apais/xml.php?skosTema=10> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=13> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=15> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=16> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=17> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=18> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=25> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=26> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=3> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=4> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=6> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=7> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=8> ;
+    prov:qualifiedAttribution
+        [
+            dcat:hadRole
+                <https://linked.data.gov.au/def/data-roles/pointOfContact> ,
+                <https://linked.data.gov.au/def/data-roles/principalInvestigator> ;
+            prov:agent <https://orcid.org/0000-0002-1398-7524> ;
+        ] ,
+        [
+            dcat:hadRole <https://linked.data.gov.au/def/data-roles/custodian> ;
+            prov:agent <https://linked.data.gov.au/org/uom> ;
+        ] ;
+.
