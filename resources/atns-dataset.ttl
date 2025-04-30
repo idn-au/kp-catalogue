@@ -1,0 +1,89 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX odrl: <http://www.w3.org/ns/odrl/2/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://data.idnau.org/pid/resource/d23405b4-fc04-47e2-9e7a-9c5735ae3780>
+    a dcat:Resource ;
+    dcterms:accessRights <https://linked.data.gov.au/def/data-access-rights/open> ;
+    dcterms:created "2002"^^xsd:gYear ;
+    dcterms:description "The ATNS Database is a comprehensive online resource documenting agreements, treaties, and negotiated settlements between Indigenous peoples and governments — primarily focused on Australia, but also includes comparative international examples." ;
+    dcterms:issued "2002"^^xsd:gYear ;
+    dcterms:license <http://purl.org/NET/rdflicense/cc-by-nc-nd4.0> ;
+    dcterms:modified "2024"^^xsd:gYear ;
+    dcterms:rights "ATNS" ;
+    dcterms:temporal
+        [
+            prov:startedAtTime "2002"^^xsd:gYear ;
+        ] ;
+    dcterms:title "Agreements, Treaties and Negotiated Settlements" ;
+    dcterms:type
+        <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-people> ,
+        <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-things> ,
+        <https://data.idnau.org/pid/vocab/indigeneity/by-indigenous-people> ;
+    dcat:distribution
+        [
+            a dcat:Distribution ;
+            dcterms:description "The ATNS Database is a comprehensive online resource documenting agreements, treaties, and negotiated settlements between Indigenous peoples and governments — primarily focused on Australia, but also includes comparative international examples." ;
+            dcterms:title "Agreements, Treaties and Negotiated Settlements" ;
+            dcat:accessURL <https://www.atns.net.au/> ;
+        ] ;
+    dcat:theme
+        <https://vocabularyserver.com/apais/xml.php?skosTema=1004> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=1029> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=12> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=13> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=14> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=1483> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=15> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=181> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=21> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=24> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=7> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=8> ;
+    odrl:hasPolicy
+        [
+            odrl:duty <http://example.com/duty/archive-data-and-metadata> ;
+            schema:additionalType <https://data.idnau.org/pid/vocab/policy-types/data-governance> ;
+            schema:description "University of Melbourne data governance policy" ;
+            schema:url <https://policy.unimelb.edu.au/MPF1242/> ;
+        ] ;
+    prov:qualifiedAttribution
+        [
+            dcat:hadRole <https://linked.data.gov.au/def/data-roles/custodian> ;
+            prov:agent <https://linked.data.gov.au/org/uom> ;
+        ] ,
+        [
+            dcat:hadRole
+                <https://linked.data.gov.au/def/data-roles/originator> ,
+                <https://linked.data.gov.au/def/data-roles/owner> ,
+                <https://linked.data.gov.au/def/data-roles/principalInvestigator> ;
+            prov:agent <https://orcid.org/0000-0002-1398-7524> ;
+        ] ,
+        [
+            dcat:hadRole <https://linked.data.gov.au/def/data-roles/pointOfContact> ;
+            prov:agent <https://data.idnau.org/pid/person/6cf32191-8d20-4a43-99ba-1a7727615ad9> ;
+        ] ;
+.
+
+<https://data.idnau.org/pid/person/6cf32191-8d20-4a43-99ba-1a7727615ad9>
+    a schema:Person ;
+    schema:email "m.langton@unimelb.edu.au"^^xsd:anyURI ;
+    schema:name "Marcia Langton" ;
+    schema:telephone "0390359564 " ;
+.
+
+<https://linked.data.gov.au/org/uom>
+    a schema:Organization ;
+    schema:description "The University of Melbourne is a public research university located in Melbourne, Australia. Founded in 1853, it is Australia's second oldest university and the oldest in Victoria." ;
+    schema:identifier "84 002 705 224" ;
+    schema:name "The University of Melbourne" ;
+    schema:url <https://www.unimelb.edu.au/> ;
+.
+
+<https://orcid.org/0000-0002-1398-7524>
+    a schema:Person ;
+    schema:name "Marcia Langton" ;
+.
