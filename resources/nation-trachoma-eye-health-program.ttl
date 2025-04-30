@@ -1,0 +1,35 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://data.idnau.org/pid/resource/ae27713b-45a0-4e93-90fa-507e0dee12ae>
+    a dcat:Resource ;
+    dcterms:accessRights <https://linked.data.gov.au/def/data-access-rights/restricted> ;
+    dcterms:created "1976-01-01"^^xsd:date ;
+    dcterms:description "A national dataset compiled during the Fred Hollows-led National Trachoma and Eye Health Program, spanning 1976–1978. The data was collected during mobile clinics run across more than 465 Aboriginal communities, focusing on trachoma prevalence and treatment interventions. It includes clinical screening data, demographic details, and public health observations." ;
+    dcterms:modified "1978-01-01"^^xsd:date ;
+    dcterms:rights "Len Smith" ;
+    dcterms:temporal
+        [
+            prov:endedAtTime "1978"^^xsd:gYear ;
+            prov:startedAtTime "1976"^^xsd:gYear ;
+        ] ;
+    dcterms:title "National Trachoma and Eye Health Program (NTEHP) Dataset" ;
+    dcterms:type
+        <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-people> ,
+        <https://data.idnau.org/pid/vocab/indigeneity/by-indigenous-people> ;
+    dcat:theme
+        <https://vocabularyserver.com/apais/xml.php?skosTema=1004> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=1096> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=12> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=17> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=181> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=25> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=6> ;
+    prov:qualifiedAttribution
+        [
+            dcat:hadRole <https://linked.data.gov.au/def/data-roles/custodian> ;
+            prov:agent <https://orcid.org/0000-0002-5477-0874> ;
+        ] ;
+.
