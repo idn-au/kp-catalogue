@@ -1,0 +1,50 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX sdo: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://data.idnau.org/pid/resource/83a85a5f-a0b0-4a94-99a4-6a0464284edf>
+    a dcat:Resource ;
+    dcterms:accessRights <https://linked.data.gov.au/def/data-access-rights/restricted> ;
+    dcterms:created "2024-11-19"^^xsd:date ;
+    dcterms:description "This dataset is..." ;
+    dcterms:license <http://purl.org/NET/rdflicense/allrightsreserved> ;
+    dcterms:modified "2024-11-19"^^xsd:date ;
+    dcterms:rights "For use by Milingimbi people only" ;
+    dcterms:spatial <https://www.geonames.org/8605117> ;
+    dcterms:title "Milingimbi Djalkari Dataset" ;
+    dcterms:type
+        <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-people> ,
+        <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-things> ,
+        <https://data.idnau.org/pid/vocab/indigeneity/by-indigenous-people> ;
+    dcat:theme
+        <https://vocabularyserver.com/apais/xml.php?skosTema=3> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=4> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=5> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=7> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=8> ;
+    prov:qualifiedAttribution
+        [
+            dcat:hadRole <https://linked.data.gov.au/def/data-roles/custodian> ;
+            prov:agent <https://data.idnau.org/pid/organization/636c32e3-b7c8-4d63-a192-9337f0793aac> ;
+        ] ,
+        [
+            dcat:hadRole <https://linked.data.gov.au/def/data-roles/author> ;
+            prov:agent <https://data.idnau.org/pid/organization/43581c86-892a-48dc-be9f-874477c0b6d2> ;
+        ] ;
+.
+
+<https://data.idnau.org/pid/organization/43581c86-892a-48dc-be9f-874477c0b6d2>
+    a sdo:Organization ;
+    dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
+    sdo:description "This is..." ;
+    sdo:name "Milingimbi Culture & Art Centre Staff" ;
+.
+
+<https://data.idnau.org/pid/organization/636c32e3-b7c8-4d63-a192-9337f0793aac>
+    a sdo:Organization ;
+    dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/indigenous-persons-organisation> ;
+    sdo:description "This is..." ;
+    sdo:name "Milingimbi Culture & Art Centre Board" ;
+.
