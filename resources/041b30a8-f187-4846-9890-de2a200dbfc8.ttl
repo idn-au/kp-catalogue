@@ -18,7 +18,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         schema:name "Message Stick Database website online" ;
     ] ,
     [
-        schema:location "University of Melbourne MediaFlux data archive, ISU Tenancy, storage uni ABC123" ;
+        schema:url "https://mediaflux.researchsoftware.unimelb.edu.au/projects/proj-5050_isu-1128.4.708/keeping-place/source-data-of-the-australian-message-stick-database" ;
         schema:name "UoM archived copy of data files" ;
     ] ;
 .
