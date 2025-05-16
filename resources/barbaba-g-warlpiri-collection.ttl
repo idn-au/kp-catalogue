@@ -45,12 +45,3 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             prov:agent <https://data.idnau.org/pid/person/11e6963e-af06-4633-94ae-5dd786fc7360> ;
         ] ;
 .
-
-<https://data.idnau.org/pid/person/11e6963e-af06-4633-94ae-5dd786fc7360>
-    a sdo:Person ;
-    dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
-    sdo:description """Barbara Glowczewski has a professorial research tenure at the CNRS (National Scientific Research Centre in France) and coordinates the team "Anthropology of perception" at the Laboratory of Social Anthropology (CNRS/EHESS/Collège de France).
-She teaches and supervises PhD students at EHESS (School of Social Sciences, Paris), and joint degrees with Australian Universities (JCU, Melbourne, UQ).
-Since 1979, has cumulated 12 years of fieldwork in Australia (Warlpiri people in Lajamanu, Yawuru and Jabirr Jabirr people in Broome, and Palm Island since 2004). Author of many books and articles, her multimedia work has been displayed in many exhibitions and use for teaching around the world, (awards for 2 CD-Roms published by UNESCO: Dream trackers, Yapa art and Knowledge of the Australian desert, 2000, and Cultural diversity and Indigenous Peoples, 2004).""" ;
-    sdo:name "Barbara Glowczewski" ;
-.

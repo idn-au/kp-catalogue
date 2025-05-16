@@ -30,13 +30,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     prov:qualifiedAttribution
         [
             dcat:hadRole <https://linked.data.gov.au/def/data-roles/custodian> ;
-            prov:agent <https://data.idnau.org/pid/organization/eede9aa2-0299-4cab-b8c6-588a5103777b> ;
+            prov:agent <https://data.idnau.org/pid/org/eede9aa2-0299-4cab-b8c6-588a5103777b> ;
         ] ;
-.
-
-<https://data.idnau.org/pid/organization/eede9aa2-0299-4cab-b8c6-588a5103777b>
-    a sdo:Organization ;
-    dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
-    sdo:description "University of Western Australia is a public research university in the Australian state of Western Australia. The university's main campus is in Crawley, a suburb in the City of Perth local government area. UWA was established in 1911 by an act of the Parliament of Western Australia." ;
-    sdo:name "University of Western Australia" ;
 .

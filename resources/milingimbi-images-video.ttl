@@ -33,24 +33,10 @@ This dataset is the main collection of digital images and video of Milingimbi ar
     prov:qualifiedAttribution
         [
             dcat:hadRole <https://linked.data.gov.au/def/data-roles/custodian> ;
-            prov:agent <https://data.idnau.org/pid/organization/636c32e3-b7c8-4d63-a192-9337f0793aac> ;
+            prov:agent <https://data.idnau.org/pid/org/636c32e3-b7c8-4d63-a192-9337f0793aac> ;
         ] ,
         [
             dcat:hadRole <https://linked.data.gov.au/def/data-roles/author> ;
-            prov:agent <https://data.idnau.org/pid/organization/43581c86-892a-48dc-be9f-874477c0b6d2> ;
+            prov:agent <https://data.idnau.org/pid/org/43581c86-892a-48dc-be9f-874477c0b6d2> ;
         ] ;
-.
-
-<https://data.idnau.org/pid/organization/43581c86-892a-48dc-be9f-874477c0b6d2>
-    a sdo:Organization ;
-    dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous> ;
-    sdo:description "This is..." ;
-    sdo:name "Milingimbi Culture & Art Centre Staff" ;
-.
-
-<https://data.idnau.org/pid/organization/636c32e3-b7c8-4d63-a192-9337f0793aac>
-    a sdo:Organization ;
-    dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/indigenous-persons-organisation> ;
-    sdo:description "This is..." ;
-    sdo:name "Milingimbi Culture & Art Centre Board" ;
 .

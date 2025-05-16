@@ -24,20 +24,6 @@ Possible addition of archival data into Keeping Place.""" ;
         ] ,
         [
             dcat:hadRole <https://linked.data.gov.au/def/data-roles/owner> ;
-            prov:agent <https://data.idnau.org/pid/organization/f4d906f6-8afc-422d-bbfd-37c75a80b79b> ;
+            prov:agent <https://data.idnau.org/pid/org/f4d906f6-8afc-422d-bbfd-37c75a80b79b> ;
         ] ;
-.
-
-<https://data.idnau.org/pid/organization/f4d906f6-8afc-422d-bbfd-37c75a80b79b>
-    a sdo:Organization ;
-    dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/owned-by-indigenous-persons> ;
-    sdo:name "North Australian Indigenous Land and Sea Management Alliance Ltd" ;
-    sdo:url "https://nailsma.org.au/about-us"^^xsd:anyURI ;
-.
-
-<https://data.idnau.org/pid/person/948a737f-cfcc-40e5-b881-c6858a8af607>
-    a sdo:Person ;
-    sdo:description "Barry J Hunter is a descendant from the Djabugay speaking people of Cairns hinterland. He grew up besides the Barron River in the rainforest near Kuranda. Barry’s experience includes employment in Government conservation agencies, mining and exploration industry, community and not-for-profit NGO’s. With over 30 years’ experience in Aboriginal affairs particularly in areas of land, natural and cultural resource management, he is dedicated to building community capacity and planning that delivers sustainable social, cultural and economic outcomes in our communities. He is currently, Chief Executive Officer of the North Australian Indigenous Land and Sea Management Alliance (NAILSMA)." ;
-    sdo:name "Barry Hunter" ;
-    sdo:url "https://northaust.org.au/barry-hunter"^^xsd:anyURI ;
 .

@@ -1,22 +1,25 @@
-@prefix dcat: <http://www.w3.org/ns/dcat#>.
-@prefix dcterms: <http://purl.org/dc/terms/>.
-@prefix geo: <http://www.opengis.net/ont/geosparql#>.
-@prefix prov: <http://www.w3.org/ns/prov#>.
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
-@prefix role: <https://w3id.org/idn/def/idn-role-codes/>.
-@prefix sdo: <https://schema.org/>.
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX sdo: <https://schema.org/>
 
-<https://data.idnau.org/pid/resource/ae27713b-45a0-4e93-90fa-507e0dee12ae> a dcat:Resource;
-    dcterms:title "Caring for Country Archive";
-    dcterms:type <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-people>, <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-things>, <https://data.idnau.org/pid/vocab/indigeneity/by-indigenous-people>;
-    dcterms:description "​The Caring for Country Archive, proposed by Dr. Rod Kennett and collaborators, aims to document and preserve Indigenous Australian knowledge related to land and sea management practices. This initiative seeks to safeguard culturally significant materials and support future generations of practitioners, decision-makers, and scholars in understanding and applying traditional ecological knowledge.";
-    prov:qualifiedAttribution _:b3;
-    dcat:theme <https://vocabularyserver.com/apais/xml.php?skosTema=7>, <https://vocabularyserver.com/apais/xml.php?skosTema=8>, <https://vocabularyserver.com/apais/xml.php?skosTema=10>, <https://vocabularyserver.com/apais/xml.php?skosTema=181>, <https://vocabularyserver.com/apais/xml.php?skosTema=1096>.
-<https://data.idnau.org/pid/person/4d1efb88-6e06-48bf-bc24-aea9711fabf4> a sdo:Person;
-    dcterms:type <https://data.idnau.org/pid/vocab/org-indigeneity/non-indigenous>;
-    sdo:name "Dr Rod Kennett";
-    sdo:description "President - Australian Fulbright Alumni Association and Adjunct Professor at University of Canberra".
-_:b3 prov:agent <https://data.idnau.org/pid/person/4d1efb88-6e06-48bf-bc24-aea9711fabf4>;
-    dcat:hadRole <https://linked.data.gov.au/def/data-roles/custodian>.
+<https://data.idnau.org/pid/resource/ae27713b-45a0-4e93-90fa-507e0dee12ae>
+    a dcat:Resource ;
+    dcterms:description "​The Caring for Country Archive, proposed by Dr. Rod Kennett and collaborators, aims to document and preserve Indigenous Australian knowledge related to land and sea management practices. This initiative seeks to safeguard culturally significant materials and support future generations of practitioners, decision-makers, and scholars in understanding and applying traditional ecological knowledge." ;
+    dcterms:title "Caring for Country Archive" ;
+    dcterms:type
+        <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-people> ,
+        <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-things> ,
+        <https://data.idnau.org/pid/vocab/indigeneity/by-indigenous-people> ;
+    dcat:theme
+        <https://vocabularyserver.com/apais/xml.php?skosTema=10> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=1096> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=181> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=7> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=8> ;
+    prov:qualifiedAttribution
+        [
+            dcat:hadRole <https://linked.data.gov.au/def/data-roles/custodian> ;
+            prov:agent <https://data.idnau.org/pid/person/4d1efb88-6e06-48bf-bc24-aea9711fabf4> ;
+        ] ;
+.
