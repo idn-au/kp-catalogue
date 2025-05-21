@@ -1,47 +1,33 @@
-PREFIX dcat: <http://www.w3.org/ns/dcat#>
-PREFIX dcterms: <http://purl.org/dc/terms/>
-PREFIX prov: <http://www.w3.org/ns/prov#>
-PREFIX sdo: <https://schema.org/>
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://data.idnau.org/pid/resource/164f8cc2-35a0-4e67-91a6-c9cc5b3d4633>
-    a dcat:Resource ;
-    dcterms:accessRights <https://linked.data.gov.au/def/data-access-rights/restricted> ;
-    dcterms:created "1979-01-01"^^xsd:date ;
-    dcterms:description "Photos, films, sound recordings of songs and stories, field note books from Lajamanu Warlpiri Aboriginal people, Central Australia. 1979-2018 Photographies, films, enregistrements de chants et recits, carnets de terrain chez les Aborigènes Warlpiri de Lajamanu, Australie centrale. 1979-2018" ;
-    dcterms:modified "2018-01-01"^^xsd:date ;
-    dcterms:temporal
-        [
-            prov:endedAtTime "2014"^^xsd:gYear ;
-            prov:startedAtTime "1979"^^xsd:gYear ;
-        ] ;
-    dcterms:title "Warlpiri Collection (Barbara Glowczewski)" ;
-    dcterms:type
-        <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-people> ,
-        <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-things> ;
-    dcat:distribution
-        [
-            dcat:accessURL "https://www.odsas.net/collection/28"^^xsd:anyURI ;
-        ] ;
-    dcat:theme
-        <https://vocabularyserver.com/apais/xml.php?skosTema=12> ,
-        <https://vocabularyserver.com/apais/xml.php?skosTema=15> ,
-        <https://vocabularyserver.com/apais/xml.php?skosTema=17> ,
-        <https://vocabularyserver.com/apais/xml.php?skosTema=18> ,
-        <https://vocabularyserver.com/apais/xml.php?skosTema=25> ,
-        <https://vocabularyserver.com/apais/xml.php?skosTema=26> ,
-        <https://vocabularyserver.com/apais/xml.php?skosTema=27> ,
-        <https://vocabularyserver.com/apais/xml.php?skosTema=3> ,
-        <https://vocabularyserver.com/apais/xml.php?skosTema=4> ,
-        <https://vocabularyserver.com/apais/xml.php?skosTema=6> ,
-        <https://vocabularyserver.com/apais/xml.php?skosTema=7> ,
-        <https://vocabularyserver.com/apais/xml.php?skosTema=8> ,
-        <https://vocabularyserver.com/apais/xml.php?skosTema=9> ;
-    prov:qualifiedAttribution
-        [
-            dcat:hadRole
-                <https://linked.data.gov.au/def/data-roles/custodian> ,
+<https://data.idnau.org/pid/resource/164f8cc2-35a0-4e67-91a6-c9cc5b3d4633> a schema:Dataset ;
+    prov:qualifiedAttribution [ dcat:hadRole <https://linked.data.gov.au/def/data-roles/custodian>,
                 <https://linked.data.gov.au/def/data-roles/pointOfContact> ;
-            prov:agent <https://data.idnau.org/pid/person/11e6963e-af06-4633-94ae-5dd786fc7360> ;
-        ] ;
-.
+            prov:agent <https://data.idnau.org/pid/person/11e6963e-af06-4633-94ae-5dd786fc7360> ] ;
+    schema:additionalType <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-people>,
+        <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-things> ;
+    schema:dateCreated "1979-01-01"^^xsd:date ;
+    schema:dateModified "2018-01-01"^^xsd:date ;
+    schema:description "Photos, films, sound recordings of songs and stories, field note books from Lajamanu Warlpiri Aboriginal people, Central Australia. 1979-2018 Photographies, films, enregistrements de chants et recits, carnets de terrain chez les Aborigènes Warlpiri de Lajamanu, Australie centrale. 1979-2018" ;
+    schema:distribution [ schema:url "https://www.odsas.net/collection/28"^^xsd:anyURI ] ;
+    schema:keywords <https://vocabularyserver.com/apais/xml.php?skosTema=12>,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=15>,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=17>,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=18>,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=25>,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=26>,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=27>,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=3>,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=4>,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=6>,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=7>,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=8>,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=9> ;
+    schema:name "Warlpiri Collection (Barbara Glowczewski)" ;
+    schema:temporal [ prov:endedAtTime "2014"^^xsd:gYear ;
+            prov:startedAtTime "1979"^^xsd:gYear ] ;
+    schema:usageInfo <https://linked.data.gov.au/def/data-access-rights/restricted> .
+

@@ -1,29 +1,19 @@
-PREFIX dcat: <http://www.w3.org/ns/dcat#>
-PREFIX dcterms: <http://purl.org/dc/terms/>
-PREFIX prov: <http://www.w3.org/ns/prov#>
-PREFIX sdo: <https://schema.org/>
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix schema: <https://schema.org/> .
 
-<https://data.idnau.org/pid/resource/ae27713b-45a0-4e93-90fa-507e0dee12ae>
-    a dcat:Resource ;
-    dcterms:description """The North Australian Indigenous Land and Sea Management Alliance Ltd (NAILSMA) is an Indigenous led not-for-profit company operating across north Australia. We work to assist Indigenous people manage their country sustainably for future generations.
+<https://data.idnau.org/pid/resource/ae27713b-45a0-4e93-90fa-507e0dee12ae> a schema:Dataset ;
+    prov:qualifiedAttribution [ dcat:hadRole <https://linked.data.gov.au/def/data-roles/custodian>,
+                <https://linked.data.gov.au/def/data-roles/owner>,
+                <https://linked.data.gov.au/def/data-roles/pointOfContact> ;
+            prov:agent <https://data.idnau.org/pid/person/948a737f-cfcc-40e5-b881-c6858a8af607> ],
+        [ dcat:hadRole <https://linked.data.gov.au/def/data-roles/owner> ;
+            prov:agent <https://data.idnau.org/pid/org/f4d906f6-8afc-422d-bbfd-37c75a80b79b> ] ;
+    schema:additionalType <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-people>,
+        <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-things>,
+        <https://data.idnau.org/pid/vocab/indigeneity/by-indigenous-people> ;
+    schema:description """The North Australian Indigenous Land and Sea Management Alliance Ltd (NAILSMA) is an Indigenous led not-for-profit company operating across north Australia. We work to assist Indigenous people manage their country sustainably for future generations.
 
 Possible addition of archival data into Keeping Place.""" ;
-    dcterms:title "North Australian Indigenous Land and Sea Management Alliance Archive" ;
-    dcterms:type
-        <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-people> ,
-        <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-things> ,
-        <https://data.idnau.org/pid/vocab/indigeneity/by-indigenous-people> ;
-    prov:qualifiedAttribution
-        [
-            dcat:hadRole
-                <https://linked.data.gov.au/def/data-roles/custodian> ,
-                <https://linked.data.gov.au/def/data-roles/owner> ,
-                <https://linked.data.gov.au/def/data-roles/pointOfContact> ;
-            prov:agent <https://data.idnau.org/pid/person/948a737f-cfcc-40e5-b881-c6858a8af607> ;
-        ] ,
-        [
-            dcat:hadRole <https://linked.data.gov.au/def/data-roles/owner> ;
-            prov:agent <https://data.idnau.org/pid/org/f4d906f6-8afc-422d-bbfd-37c75a80b79b> ;
-        ] ;
-.
+    schema:name "North Australian Indigenous Land and Sea Management Alliance Archive" .
+
