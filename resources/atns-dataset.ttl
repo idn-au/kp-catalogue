@@ -42,6 +42,5 @@
     schema:license <http://purl.org/NET/rdflicense/cc-by-nc-nd4.0> ;
     schema:name "Agreements, Treaties and Negotiated Settlements" ;
     schema:temporal [ prov:startedAtTime "2002"^^xsd:gYear ] ;
-    schema:usageInfo <https://linked.data.gov.au/def/data-access-rights/open>,
-        "ATNS" .
+    schema:usageInfo <https://linked.data.gov.au/def/data-access-rights/open> .
 
