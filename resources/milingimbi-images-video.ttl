@@ -4,7 +4,7 @@
 @prefix schema: <https://schema.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://data.idnau.org/pid/resource/1af3c08e-e217-4472-a481-1e6d0ef9b1bc> a schema:Dataset ;
+<https://data.idnau.org/pid/resource/58bb2ab0-7d08-4b87-b5b8-29f5237d4738> a schema:Dataset ;
     dcterms:spatial <https://www.geonames.org/8605117> ;
     prov:qualifiedAttribution [ dcat:hadRole <https://linked.data.gov.au/def/data-roles/custodian> ;
             prov:agent <https://data.idnau.org/pid/org/636c32e3-b7c8-4d63-a192-9337f0793aac> ],

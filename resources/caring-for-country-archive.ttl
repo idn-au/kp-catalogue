@@ -2,7 +2,7 @@
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix schema: <https://schema.org/> .
 
-<https://data.idnau.org/pid/resource/ae27713b-45a0-4e93-90fa-507e0dee12ae> a schema:CreativeWork ;
+<https://data.idnau.org/pid/resource/a3750734-690e-4871-9407-20fa3a50ac9f> a schema:CreativeWork ;
     prov:qualifiedAttribution [ dcat:hadRole <https://linked.data.gov.au/def/data-roles/custodian> ;
             prov:agent <https://data.idnau.org/pid/person/4d1efb88-6e06-48bf-bc24-aea9711fabf4> ] ;
     schema:additionalType <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-people>,

@@ -3,7 +3,7 @@
 @prefix schema: <https://schema.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://data.idnau.org/pid/resource/ae27713b-45a0-4e93-90fa-507e0dee12ae> a schema:Dataset ;
+<https://data.idnau.org/pid/resource/25b69f1f-9b34-48b0-a87f-0430c39b2427> a schema:Dataset ;
     prov:qualifiedAttribution [ dcat:hadRole <https://linked.data.gov.au/def/data-roles/custodian> ;
             prov:agent <https://orcid.org/0000-0002-5477-0874> ] ;
     schema:additionalType <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-people>,
