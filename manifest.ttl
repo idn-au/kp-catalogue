@@ -9,25 +9,32 @@ PREFIX schema: <https://schema.org/>
         [
             prof:hasArtifact "catalogue.ttl" ;
             prof:hasRole mrr:CatalogueData ;
-            schema:description "The definition of, and medata for, the container which here is a dcat:Catalog object" ;
-            schema:name "Catalogue Definition"
+            schema:description "The definition of, and metadata for, the container which here is a dcat:Catalog object" ;
+            schema:name "Catalogue Definition" ;
         ] ,
         [
             prof:hasArtifact "resources/*.ttl" ;
             prof:hasRole mrr:ResourceData ;
             schema:description "sdo:CreativeWork objects in RDF (Turtle) files in the resources/ folder" ;
-            schema:name "Resource Data"
+            schema:name "Resource Data" ;
+            # dcterms:conformsTo <https://data.idnau.org/pid/cp/validator> ;
         ] ,
         [
             prof:hasArtifact "https://github.com/RDFLib/prez/blob/main/prez/reference_data/profiles/ogc_records_profile.ttl" ;
             prof:hasRole mrr:CatalogueAndResourceModel ;
             schema:description "The default Prez profile for Records API" ;
-            schema:name "Profile Definition"
+            schema:name "Profile Definition" ;
         ] ,
         [
             prof:hasArtifact "_background/labels.ttl" ;
             prof:hasRole mrr:IncompleteCatalogueAndResourceLabels ;
             schema:description "An RDF file containing labels for catalogue's content, auto-extracted from KurrawongAI's Semantic Background" ;
             schema:name "Labels" ;
+        ] ,
+        [
+            prof:hasArtifact "_background/labels-manual.ttl" ;
+            prof:hasRole mrr:IncompleteCatalogueAndResourceLabels ;
+            schema:description "An RDF file containing labels for catalogue's content, manually created" ;
+            schema:name "Manual Labels" ;
         ] ;
 .
