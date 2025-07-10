@@ -16,6 +16,8 @@
     schema:dateCreated "2024-11-19"^^xsd:date ;
     schema:dateModified "2024-11-19"^^xsd:date ;
     schema:description "This dataset is..." ;
+    schema:distribution [ schema:name "UoM archived copy of data files" ;
+            schema:url "https://mediaflux.researchsoftware.unimelb.edu.au/projects/proj-5050_isu-1128.4.708/keeping-place/milingimbi" ] ;
     schema:keywords <https://vocabularyserver.com/apais/xml.php?skosTema=3>,
         <https://vocabularyserver.com/apais/xml.php?skosTema=4>,
         <https://vocabularyserver.com/apais/xml.php?skosTema=5>,
