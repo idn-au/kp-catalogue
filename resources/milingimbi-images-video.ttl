@@ -18,6 +18,8 @@
     schema:description """Milingimbi Art and Culture is an Indigenous-owned, non-profit corporation which supports Yolŋu culture and sustainable livelihoods for artists on the island of Yurrwi (Milingimbi), in North East Arnhem Land.
 
 This dataset is the main collection of digital images and video of Milingimbi artworks and artists held by the Centre. It has some digitised old images (1970 - 2000) and lots of digital-native imagery (2000+) from the Centre's catalogues, exhibitions and events.""" ;
+    schema:distribution [ schema:name "UoM archived copy of data files" ;
+        schema:url "https://mediaflux.researchsoftware.unimelb.edu.au/projects/proj-5050_isu-1128.4.708/keeping-place/milingimbi" ] ;
     schema:keywords <https://vocabularyserver.com/apais/xml.php?skosTema=3>,
         <https://vocabularyserver.com/apais/xml.php?skosTema=4>,
         <https://vocabularyserver.com/apais/xml.php?skosTema=5>,
