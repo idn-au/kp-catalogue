@@ -31,5 +31,11 @@ PREFIX schema: <https://schema.org/>
             prof:hasRole mrr:IncompleteCatalogueAndResourceLabels ;
             schema:description "An RDF file containing labels for catalogue's content, auto-extracted from KurrawongAI's Semantic Background" ;
             schema:name "Labels" ;
+        ] ,
+        [
+            prof:hasArtifact "labels-manual.ttl" ;
+            prof:hasRole mrr:IncompleteCatalogueAndResourceLabels ;
+            schema:description "An RDF file containing labels for catalogue's content, manually created" ;
+            schema:name "Manual Labels" ;
         ] ;
 .
