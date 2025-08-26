@@ -5,7 +5,8 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://data.idnau.org/pid/resource/d23405b4-fc04-47e2-9e7a-9c5735ae3780> a schema:Dataset ;
-    odrl:hasPolicy [ odrl:duty <http://example.com/duty/archive-data-and-metadata> ;
+    odrl:hasPolicy [ a odrl:Policy ;
+            odrl:duty <http://example.com/duty/archive-data-and-metadata> ;
             schema:additionalType <https://data.idnau.org/pid/vocab/policy-types/data-governance> ;
             schema:description "University of Melbourne data governance policy" ;
             schema:url <https://policy.unimelb.edu.au/MPF1242/> ] ;
