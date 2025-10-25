@@ -42,11 +42,15 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://orcid.org/0000-0002-1398-7524>
+    a schema:Person ;
     schema:name "Marcia Langton" ;
+    schema:email ""^^xsd:anyURI ;
 .
 
 <https://orcid.org/0000-0002-5477-0874>
+    a schema:Person ;
     schema:name "Len Smith" ;
+    schema:email "leonard.smith@anu.edu.au"^^xsd:anyURI ;
 .
 
 <https://vocabularyserver.com/apais/xml.php?skosTema=10>

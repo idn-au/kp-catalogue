@@ -34,7 +34,7 @@ This archival dataset is stored on hard disk drives collected by University of M
         <https://vocabularyserver.com/apais/xml.php?skosTema=6> ,
         <https://vocabularyserver.com/apais/xml.php?skosTema=7> ,
         <https://vocabularyserver.com/apais/xml.php?skosTema=8> ;
-    prov:qualifiedAttribution
+    prov:qualifiedAttribution 
         [
             dcat:hadRole
                 <https://linked.data.gov.au/def/data-roles/pointOfContact> ,

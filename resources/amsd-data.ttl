@@ -1,0 +1,27 @@
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://data.idnau.org/pid/resource/041b30a8-f187-4846-9890-de2a200dbfc8>
+    a schema:Dataset ;
+    schema:additionalType <http://purl.org/spar/fabio/DataFile> ;
+    schema:creator "Kelly, Piers, Junran Lei, Hans-Jörg Bibiko, and Lorina Barker" ;
+    schema:dateCreated "2018"^^xsd:gYear ;
+    schema:dateModified "2025-03-03"^^xsd:date ;
+    schema:description "An online version control repository containing data files for the content of the Australian Message Stick Database" ;
+    schema:distribution 
+        [
+            schema:name "UoM archived copy of the version control repository" ;
+            schema:url "https://mediaflux.researchsoftware.unimelb.edu.au/projects/proj-5050_isu-1128.4.708/keeping-place/source-data-of-the-australian-message-stick-database" ;
+            schema:dateCreated "2024-05-15"^^xsd:date ;
+        ] ,
+        [
+            schema:name "Message Stick Database website" ;
+            schema:url "https://amsd.clld.org" ;
+        ] ,
+        [
+            schema:name "GitHub repository storage of the data" ;
+            schema:url "https://github.com/clld/amsd-data" ;
+        ] ;
+    schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
+    # schema:name "Australian Message Stick Database (AMSD) data" ;
+.

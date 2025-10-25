@@ -1,30 +1,42 @@
-@prefix dcat: <http://www.w3.org/ns/dcat#> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix schema: <https://schema.org/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX schema: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<https://data.idnau.org/pid/resource/83a85a5f-a0b0-4a94-99a4-6a0464284edf> a schema:Dataset ;
+<https://data.idnau.org/pid/resource/83a85a5f-a0b0-4a94-99a4-6a0464284edf>
+    a schema:Dataset ;
     dcterms:spatial <https://www.geonames.org/8605117> ;
-    prov:qualifiedAttribution [ dcat:hadRole <https://linked.data.gov.au/def/data-roles/custodian> ;
-            prov:agent <https://data.idnau.org/pid/org/636c32e3-b7c8-4d63-a192-9337f0793aac> ],
-        [ dcat:hadRole <https://linked.data.gov.au/def/data-roles/author> ;
-            prov:agent <https://data.idnau.org/pid/org/43581c86-892a-48dc-be9f-874477c0b6d2> ] ;
-    schema:additionalType <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-people>,
-        <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-things>,
+    prov:qualifiedAttribution 
+        [
+            dcat:hadRole <https://linked.data.gov.au/def/data-roles/custodian> ;
+            prov:agent <https://data.idnau.org/pid/org/636c32e3-b7c8-4d63-a192-9337f0793aac> ;
+        ] ,
+        [
+            dcat:hadRole <https://linked.data.gov.au/def/data-roles/author> ;
+            prov:agent <https://data.idnau.org/pid/org/43581c86-892a-48dc-be9f-874477c0b6d2> ;
+        ] ;
+    schema:additionalType
+        <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-people> ,
+        <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-things> ,
         <https://data.idnau.org/pid/vocab/indigeneity/by-indigenous-people> ;
     schema:dateCreated "2024-11-19"^^xsd:date ;
     schema:dateModified "2024-11-19"^^xsd:date ;
     schema:description "This dataset is..." ;
-    schema:distribution [ schema:name "UoM archived copy of data files" ;
-            schema:url "https://mediaflux.researchsoftware.unimelb.edu.au/projects/proj-5050_isu-1128.4.708/keeping-place/milingimbi" ] ;
-    schema:keywords <https://vocabularyserver.com/apais/xml.php?skosTema=3>,
-        <https://vocabularyserver.com/apais/xml.php?skosTema=4>,
-        <https://vocabularyserver.com/apais/xml.php?skosTema=5>,
-        <https://vocabularyserver.com/apais/xml.php?skosTema=7>,
+    schema:distribution
+        [
+            schema:name "UoM archived copy of data files" ;
+            schema:url "https://mediaflux.researchsoftware.unimelb.edu.au/projects/proj-5050_isu-1128.4.708/keeping-place/milingimbi" ;
+        ] ;
+    schema:keywords
+        <https://vocabularyserver.com/apais/xml.php?skosTema=3> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=4> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=5> ,
+        <https://vocabularyserver.com/apais/xml.php?skosTema=7> ,
         <https://vocabularyserver.com/apais/xml.php?skosTema=8> ;
     schema:license <http://purl.org/NET/rdflicense/allrightsreserved> ;
     schema:name "Milingimbi Djalkari Dataset" ;
-    schema:usageInfo <https://linked.data.gov.au/def/data-access-rights/restricted>,
-        "For use by Milingimbi people only" .
-
+    schema:usageInfo
+        <https://linked.data.gov.au/def/data-access-rights/restricted> ,
+        "For use by Milingimbi people only" ;
+.
