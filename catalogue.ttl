@@ -21,7 +21,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <https://data.idnau.org/pid/resource/a3750734-690e-4871-9407-20fa3a50ac9f> ,
         <https://data.idnau.org/pid/resource/ae27713b-45a0-4e93-90fa-507e0dee12ae> ,
         <https://data.idnau.org/pid/resource/d23405b4-fc04-47e2-9e7a-9c5735ae3780> ,
-        <https://data.idnau.org/pid/resource/debd1b90-aeb4-403e-82fc-7db7c474b2fd> ;
+        <https://data.idnau.org/pid/resource/yirrkala-lpc-archive> ;
     schema:name "IDN Keeping Place Catalogue" ;
     schema:publisher <https://linked.data.gov.au/org/isu> ;
 .
