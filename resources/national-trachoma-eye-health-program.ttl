@@ -7,14 +7,15 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a schema:Dataset ;
     prov:qualifiedAttribution
         [
+            a prov:Attribution ;
             dcat:hadRole <https://linked.data.gov.au/def/data-roles/custodian> ;
-            prov:agent <https://orcid.org/0000-0002-5477-0874> ;
+            schema:agent <https://orcid.org/0000-0002-5477-0874> ;
         ] ;
     schema:additionalType
         <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-people> ,
         <https://data.idnau.org/pid/vocab/indigeneity/by-indigenous-people> ;
     schema:dateCreated "1976-01-01"^^xsd:date ;
-    schema:dateModified "1978-01-01"^^xsd:date ;
+    schema:dateModified "2026-05-25"^^xsd:date ;
     schema:description "A national dataset compiled during the Fred Hollows-led National Trachoma and Eye Health Program, spanning 1976–1978. The data was collected during mobile clinics run across more than 465 Aboriginal communities, focusing on trachoma prevalence and treatment interventions. It includes clinical screening data, demographic details, and public health observations." ;
     schema:keywords
         <https://vocabularyserver.com/apais/xml.php?skosTema=1004> ,
@@ -26,10 +27,10 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <https://vocabularyserver.com/apais/xml.php?skosTema=6> ;
     schema:name "National Trachoma and Eye Health Program (NTEHP) Dataset" ;
     schema:publisher <https://linked.data.gov.au/org/isu> ;
-    schema:temporal
+    schema:temporalCoverage
         [
-            prov:endedAtTime "1978"^^xsd:gYear ;
-            prov:startedAtTime "1976"^^xsd:gYear ;
+            schema:coverageEndTime "1978"^^xsd:gYear ;
+            schema:coverageStartTime "1976"^^xsd:gYear ;
         ] ;
     schema:usageInfo <https://linked.data.gov.au/def/data-access-rights/restricted> ;
 .
