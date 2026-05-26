@@ -18,6 +18,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             a schema:DataDownload ;
             schema:name "GitHub repository storage of the data" ;
             schema:url "https://github.com/clld/amsd-data" ;
+            schema:license <<http://www.apache.org/licenses/LICENSE-2.0> ;
         ] ,
         [
             a schema:DataDownload ;
