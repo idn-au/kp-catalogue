@@ -10,7 +10,7 @@ isu:yirrkala-lpc-archive
     a
         schema:CreativeWork ,
         rico:RecordResource ;
-    dcterms:type
+    schema:additionalType
         <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-people> ,
         <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-things> ,
         <https://data.idnau.org/pid/vocab/indigeneity/by-indigenous-people> ;
