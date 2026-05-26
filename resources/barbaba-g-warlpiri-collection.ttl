@@ -13,7 +13,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
                 <https://linked.data.gov.au/def/data-roles/pointOfContact> ;
             schema:agent <https://data.idnau.org/pid/person/11e6963e-af06-4633-94ae-5dd786fc7360> ;
         ] ;
-    schema:additionalType
+    schema:keywords
         <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-people> ,
         <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-things> ;
     schema:dateCreated "1979-01-01"^^xsd:date ;
