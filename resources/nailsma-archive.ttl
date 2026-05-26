@@ -19,7 +19,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
                 <https://linked.data.gov.au/def/data-roles/pointOfContact> ;
             schema:agent <https://data.idnau.org/pid/person/948a737f-cfcc-40e5-b881-c6858a8af607> ;
         ] ;
-    schema:additionalType
+    schema:keywords
         <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-people> ,
         <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-things> ,
         <https://data.idnau.org/pid/vocab/indigeneity/by-indigenous-people> ;
