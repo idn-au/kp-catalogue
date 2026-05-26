@@ -4,7 +4,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://data.idnau.org/pid/kp-catalogue>
     a schema:DataCatalog ;
-    schema:status astatus:experimental ;
     schema:codeRepository "https://github.com/idn-au/kp-catalogue" ;
     schema:creator <https://linked.data.gov.au/org/isu> ;
     schema:dateCreated "2025-01-24"^^xsd:date ;
@@ -24,4 +23,5 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <https://data.idnau.org/pid/resource/yirrkala-lpc-archive> ;
     schema:name "IDN Keeping Place Catalogue" ;
     schema:publisher <https://linked.data.gov.au/org/isu> ;
+    schema:status astatus:experimental ;
 .
