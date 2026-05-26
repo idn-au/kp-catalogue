@@ -11,7 +11,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             dcat:hadRole <https://linked.data.gov.au/def/data-roles/custodian> ;
             schema:agent <https://orcid.org/0000-0002-5477-0874> ;
         ] ;
-    schema:additionalType
+    schema:keywords
         <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-people> ,
         <https://data.idnau.org/pid/vocab/indigeneity/by-indigenous-people> ;
     schema:dateCreated "1976-01-01"^^xsd:date ;
