@@ -24,7 +24,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:dateModified "2026-05-25"^^xsd:date ;
     schema:description """Milingimbi Art and Culture is an Indigenous-owned, non-profit corporation which supports Yolŋu culture and sustainable livelihoods for artists on the island of Yurrwi (Milingimbi), in North East Arnhem Land.
 
-This dataset is the of cultural material from Milingimbi Island that's not in the main, current, Centre dataset.""" ;
+This dataset is the of cultural material from Milingimbi Island separate to the main Centre dataset.""" ;
     schema:distribution
         [
             a schema:DataDownload ;
