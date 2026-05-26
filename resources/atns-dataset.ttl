@@ -28,7 +28,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             dcat:hadRole <https://linked.data.gov.au/def/data-roles/custodian> ;
             schema:agent <https://linked.data.gov.au/org/uom> ;
         ] ;
-    schema:additionalType
+    schema:keywords
         <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-people> ,
         <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-things> ,
         <https://data.idnau.org/pid/vocab/indigeneity/by-indigenous-people> ;
