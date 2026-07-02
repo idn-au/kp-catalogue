@@ -22,7 +22,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <https://data.idnau.org/pid/vocab/indigeneity/by-indigenous-people> ;
     schema:dateCreated "2024-11-19"^^xsd:date ;
     schema:dateModified "2026-05-25"^^xsd:date ;
-    schema:description "This dataset is..." ;
+    schema:description "The Djalkiri Keeping Place is a community collection of historic Milingimbi artworks, objects and photos gathered since the early 20th century, housing digitally repatriated images of works held in institutions worldwide so they can be shared back with community." ;
     schema:distribution
         [
             a schema:DataDownload ;
