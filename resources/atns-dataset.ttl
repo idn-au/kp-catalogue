@@ -28,10 +28,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             dcat:hadRole <https://linked.data.gov.au/def/data-roles/custodian> ;
             schema:agent <https://linked.data.gov.au/org/uom> ;
         ] ;
-    schema:keywords
-        <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-people> ,
-        <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-things> ,
-        <https://data.idnau.org/pid/vocab/indigeneity/by-indigenous-people> ;
     schema:creator <https://orcid.org/0000-0002-1398-7524> ;
     schema:dateCreated "2002"^^xsd:gYear ;
     schema:dateIssued "2002"^^xsd:gYear ;
@@ -47,6 +43,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             schema:url "https://www.atns.net.au/"^^xsd:anyURI ;
         ] ;
     schema:keywords
+        <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-people> ,
+        <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-things> ,
+        <https://data.idnau.org/pid/vocab/indigeneity/by-indigenous-people> ,
         <https://vocabularyserver.com/apais/xml.php?skosTema=1004> ,
         <https://vocabularyserver.com/apais/xml.php?skosTema=1029> ,
         <https://vocabularyserver.com/apais/xml.php?skosTema=12> ,

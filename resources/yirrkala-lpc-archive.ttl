@@ -10,10 +10,6 @@ isu:yirrkala-lpc-archive
     a
         schema:CreativeWork ,
         rico:RecordResource ;
-    schema:keywords
-        <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-people> ,
-        <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-things> ,
-        <https://data.idnau.org/pid/vocab/indigeneity/by-indigenous-people> ;
     prov:qualifiedAttribution 
         [
             a prov:Attribution ;
@@ -33,6 +29,9 @@ isu:yirrkala-lpc-archive
 
 This archival dataset is stored on hard disk drives collected by University of Melbourne and includes digitisation of all non-standard documents, objects, materials in Archive.""" ;
     schema:keywords
+        <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-people> ,
+        <https://data.idnau.org/pid/vocab/indigeneity/about-indigenous-things> ,
+        <https://data.idnau.org/pid/vocab/indigeneity/by-indigenous-people> ,
         <https://vocabularyserver.com/apais/xml.php?skosTema=10> ,
         <https://vocabularyserver.com/apais/xml.php?skosTema=13> ,
         <https://vocabularyserver.com/apais/xml.php?skosTema=15> ,
