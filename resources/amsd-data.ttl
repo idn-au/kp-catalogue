@@ -23,5 +23,5 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
             schema:url "https://github.com/clld/amsd-data" ;
         ] ;
     schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
-    # schema:name "Australian Message Stick Database (AMSD) data" ;
+    schema:name "Australian Message Stick Database (AMSD) data" ;
 .
