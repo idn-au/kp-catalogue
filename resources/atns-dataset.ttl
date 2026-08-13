@@ -6,14 +6,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://data.idnau.org/pid/resource/d23405b4-fc04-47e2-9e7a-9c5735ae3780>
     a schema:Dataset ;
-    odrl:hasPolicy
-        [
-            a odrl:Policy ;
-            odrl:duty <http://example.com/duty/archive-data-and-metadata> ;
-            schema:additionalType <https://data.idnau.org/pid/vocab/policy-types/data-governance> ;
-            schema:description "University of Melbourne data governance policy" ;
-            schema:url "https://policy.unimelb.edu.au/MPF1242/"^^xsd:anyURI ;
-        ] ;
+    odrl:hasPolicy <https://data.idnau.org/pid/MPF1242> ;
     prov:qualifiedAttribution 
         [
             a prov:Attribution ;
@@ -31,7 +24,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:creator <https://orcid.org/0000-0002-1398-7524> ;
     schema:dateCreated "2002"^^xsd:gYear ;
     schema:dateIssued "2002"^^xsd:gYear ;
-    schema:dateModified "2026-05-25"^^xsd:date ;
+    schema:dateModified "2026-08-14"^^xsd:date ;
     schema:description "The ATNS Database is a comprehensive online resource documenting agreements, treaties, and negotiated settlements between Indigenous peoples and governments — primarily focused on Australia, but also includes comparative international examples." ;
     schema:distribution
         [
