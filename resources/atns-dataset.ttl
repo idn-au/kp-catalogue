@@ -1,4 +1,6 @@
+PREFIX atns: <https://linked.data.gov.au/def/atns/model/>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX idn-resource: <https://data.idnau.org/pid/resource/>
 PREFIX odrl: <http://www.w3.org/ns/odrl/2/>
 PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX schema: <https://schema.org/>
@@ -25,6 +27,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:dateCreated "2002"^^xsd:gYear ;
     schema:dateIssued "2002"^^xsd:gYear ;
     schema:dateModified "2026-08-14"^^xsd:date ;
+    schema:usageInfo idn-resource:atns-reference-guidance ;
     schema:description "The ATNS Database is a comprehensive online resource documenting agreements, treaties, and negotiated settlements between Indigenous peoples and governments — primarily focused on Australia, but also includes comparative international examples." ;
     schema:distribution
         [
